@@ -1,0 +1,19 @@
+ja:
+  activerecord:
+    models:
+      product: "製品"  #g
+
+    attributes:
+      product:
+        title: "タイトル"  #g
+        description: "概要"  #g
+        image_url: "画像URL"  #g
+        price: "価格"  #g
+  railties:
+    scaffold:
+      show: "参照" #g
+      edit: "編集" #g
+      destroy: "削除" #g
+      are_you_sure: "削除してよろしいですか？" #g
+      new_product: "新規登録" #g
+      back: "戻る" #g

@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b><%= t(:title, :default => 'Title',
+           :scope => [:activerecord, :attributes, :product]) %>:</b>
+  <%= @product.title %>
+</p>
+
+<p>
+  <b><%= t(:description, :default => 'Description',
+           :scope => [:activerecord, :attributes, :product]) %>:</b>
+  <%= @product.description %>
+</p>
+
+<p>
+  <b><%= t(:image_url, :default => 'Image url',
+           :scope => [:activerecord, :attributes, :product]) %>:</b>
+  <%= @product.image_url %>
+</p>
+
+<p>
+  <b><%= t(:price, :default => 'Price',
+           :scope => [:activerecord, :attributes, :product]) %>:</b>
+  <%= @product.price %>
+</p>
+
+
+<%= link_to t(:edit, :default => 'Edit', :scope => [:railties, :scaffold]), edit_product_path(@product) %> |
+<%= link_to t(:back, :default => 'Back', :scope => [:railties, :scaffold]), products_path %>
