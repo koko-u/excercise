@@ -17,3 +17,6 @@ ja:
       are_you_sure: "削除してよろしいですか？" #g
       new_product: "新規登録" #g
       back: "戻る" #g
+  errors:
+    messages:
+      image_format_error: "は GIF, JPG, もしくは PNGイメージでなければなりません。"
